@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero 的个人主页</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #f4f4dc;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #c0b283;
+            padding: 20px;
+            box-shadow: 0px 4px 2px -2px gray;
+        }
+        header h1 {
+            font-size: 48px;
+            color: #3b3a30;
+            margin: 0;
+        }
+        nav {
+            margin: 20px;
+        }
+        nav a {
+            color: #3b3a30;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        h2 {
+            font-size: 36px;
+            color: #5c5b57;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #c0b283;
+            padding: 20px;
+            color: #333;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            font-size: 24px;
+            color: #3b3a30;
+        }
+        .projects {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .project-item {
+            background-color: #e5e4db;
+            width: 250px;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+        }
+        .project-item h3 {
+            font-size: 24px;
+            color: #3b3a30;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Zero 的个人主页</h1>
+    <nav>
+        <a href="#about">关于我</a>
+        <a href="#projects">项目</a>
+        <a href="#contact">联系我</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>关于我</h2>
+    <p>你好！我叫 Zero，是一名热衷于游戏开发的开发者。我对打游戏有着浓厚的兴趣，同时喜欢将游戏创意带入现实世界，开发出各种有趣的项目。</p>
+</section>
+
+<section id="projects">
+    <h2>项目</h2>
+    <div class="projects">
+        <div class="project-item">
+            <h3>项目1：复古冒险游戏</h3>
+            <p>这是一个基于80年代风格的复古像素游戏，探索未知的世界，解决谜题，打败敌人。</p>
+        </div>
+        <div class="project-item">
+            <h3>项目2：街机射击游戏</h3>
+            <p>经典街机风格的射击游戏，带你回到街机游戏黄金年代，挑战高分榜。</p>
+        </div>
+        <!-- 你可以在这里添加更多项目 -->
+    </div>
+</section>
+
+<section id="contact">
+    <h2>联系我</h2>
+    <p>你可以通过以下方式联系我：</p>
+    <div class="social-icons">
+        <a href="https://github.com/zero" target="_blank">GitHub</a>
+        <a href="https://twitter.com/zero" target="_blank">Twitter</a>
+        <a href="mailto:zero@example.com">Email</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2024 Zero. 版权所有.</p>
+</footer>
+
+</body>
+</html>
